@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simple Research Code"
+  short_description: "Write simple research experiment code"
+  default_prompt: "Use $simple-research-code to write clear, minimally engineered Python or R code for this paper experiment."

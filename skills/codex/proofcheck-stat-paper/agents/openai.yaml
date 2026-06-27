@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proofcheck Stat Paper"
+  short_description: "Audit technical paper appendix proofs"
+  default_prompt: "Use $proofcheck-stat-paper to check the appendix proofs in file.tex."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stat Wisdom"
+  short_description: "独立性检验、充分降维与分布式统计方法论"
+  default_prompt: "Use $stat-wisdom to analyze this statistics question with rigorous notation, dependence testing, sufficient dimension reduction, and distributed-statistics methodology."
+
+policy:
+  allow_implicit_invocation: true
