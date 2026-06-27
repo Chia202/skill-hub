@@ -21,13 +21,6 @@ skills/
     └── stat-wisdom/
 ```
 
-`skills/agents/` contains skills from `~/.agents/skills/`.
-
-`skills/codex/` contains custom skills from `~/.codex/skills/`.
-
-`skills/claude/` is not included yet because there are currently no custom
-Claude skills to publish.
-
 ## Skills
 
 | Source | Skill | Description |
@@ -38,23 +31,6 @@ Claude skills to publish.
 | agents | `simple-research-code` | Keep academic experiment, simulation, plotting, and reproducibility code simple and readable. |
 | codex | `proofcheck-stat-paper` | Systematically audit appendix proofs in statistics, probability, ML theory, mathematics, and related papers from LaTeX source. |
 | codex | `stat-wisdom` | Answer statistics and big-data methodology questions, especially independence testing, SDR, feature screening, distributed statistics, and LaTeX notation. |
-
-## Collection Rules
-
-Included:
-
-- Custom skills from `~/.agents/skills/`
-- Custom skills from `~/.codex/skills/`
-- Custom skills from `~/.claude/skills/`, when available
-- Complete skill directories, not just `SKILL.md`
-
-Excluded:
-
-- System skills, such as `~/.codex/skills/.system`
-- Vendor imports, plugin caches, temporary plugin downloads, and marketplaces
-- Nested `.git` directories
-- Duplicate local symlinks, such as a Codex skill that points to the same
-  directory already stored under `skills/agents/`
 
 ## License
 
