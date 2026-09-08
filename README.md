@@ -17,6 +17,7 @@ skills/
 │   ├── grill-me/
 │   └── simple-research-code/
 └── codex/
+    ├── paper-to-r-independence-test/
     ├── proofcheck-stat-paper/
     └── stat-wisdom/
 ```
@@ -29,6 +30,7 @@ skills/
 | agents | `caveman` | Ultra-compressed communication mode that keeps technical accuracy while removing filler. |
 | agents | `grill-me` | Interview a plan or design one question at a time until the decision tree is resolved. |
 | agents | `simple-research-code` | Keep academic experiment, simulation, plotting, and reproducibility code simple and readable. |
+| codex | `paper-to-r-independence-test` | Turn papers or mathematical specifications for independence tests into verified, installable research-grade R packages. |
 | codex | `proofcheck-stat-paper` | Systematically audit appendix proofs in statistics, probability, ML theory, mathematics, and related papers from LaTeX source. |
 | codex | `stat-wisdom` | Answer statistics and big-data methodology questions, especially independence testing, SDR, feature screening, distributed statistics, and LaTeX notation. |
 

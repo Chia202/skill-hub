@@ -1,0 +1,7 @@
+interface:
+  display_name: "Paper to R Independence Test"
+  short_description: "Build verified R packages for independence tests, including correlation-based tests"
+  default_prompt: "Use $paper-to-r-independence-test to turn this paper's independence test or correlation-based test into a verified R package."
+
+policy:
+  allow_implicit_invocation: true
